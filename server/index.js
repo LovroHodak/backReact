@@ -8,7 +8,7 @@ const movieRouter = require('./routes/movie.routes')
 require('dotenv').config()
 
 const app = express()
-//const apiPort = 3000
+//const apiPort = 5000
 const port = process.env.PORT
 
 app.use(bodyParser.urlencoded({ extended: true }))

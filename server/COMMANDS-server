@@ -1,0 +1,11 @@
+npm init -y
+npm install express body-parser cors mongoose nodemon
+node index.js
+
+ADD MANUALLY TO PACKAGE.json in SCRIPTS
+"start": "node index.js",
+"dev": "nodemon index.js"
+
+npm run dev
+node bin/movie.seed.js
+npm i dotenv
